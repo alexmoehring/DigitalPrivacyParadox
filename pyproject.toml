@@ -1,0 +1,27 @@
+[project]
+name = "privacyparadox"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "alexmoehring",email = "alex.v.moehring@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "statsmodels (>=0.14.5,<0.15.0)",
+    "pystout @ git+https://github.com/alexmoehring/pystout.git",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "jupyterlab (>=4.4.7,<5.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "numpy (>=2.3.3,<3.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
