@@ -2,10 +2,10 @@
 This repository contains replication materials for the paper "The Digital Privacy Paradox and Choice Architecture: Evidence from an Experiment in Fintech."
 
 ## Files
-main.ipynb - Main Jupyter notebook containing all analysis code
-pyproject.toml - Project dependencies and configuration
-poetry.lock - Exact dependency versions for reproducibility
-variable_descriptions.pdf - Variable names and definitions
+- main.ipynb - Main Jupyter notebook containing all analysis code
+- pyproject.toml - Project dependencies and configuration
+- poetry.lock - Exact dependency versions for reproducibility
+- variable_descriptions.pdf - Variable names and definitions
 
 ## Requirements
 The analysis requires Python 3.11+ with the following packages:
