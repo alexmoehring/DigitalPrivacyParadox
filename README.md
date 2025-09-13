@@ -3,13 +3,9 @@ This repository contains replication materials for the paper "The Digital Privac
 
 ## Files
 main.ipynb - Main Jupyter notebook containing all analysis code
-data_public.csv - Anonymized experimental data
 pyproject.toml - Project dependencies and configuration
 poetry.lock - Exact dependency versions for reproducibility
-variable_descriptions.pdf - Codebook for data_public.csv
-
-## Data
-The dataset (data_public.csv) contains experimental data from 3,108 participants across 4 study years. The variables and their descriptions are provided in variable_descriptions.pdf.
+variable_descriptions.pdf - Variable names and definitions
 
 ## Requirements
 The analysis requires Python 3.11+ with the following packages:
