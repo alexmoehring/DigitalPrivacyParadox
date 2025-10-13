@@ -1,11 +1,13 @@
 # Digital Privacy Paradox Replication Package
-This repository contains replication materials for the paper "The Digital Privacy Paradox and Choice Architecture: Evidence from an Experiment in Fintech."
+This repository contains replication materials for the paper "The Digital Privacy Paradox and Choice Architecture: Evidence from an Experiment in Fintech." We are unable to share the underlying data due to privacy concerns, and therefore generate a simulated dataset to facilitate inspection of the code.
 
 ## Files
 - main.ipynb - Main Jupyter notebook containing all analysis code
 - pyproject.toml - Project dependencies and configuration
 - poetry.lock - Exact dependency versions for reproducibility
 - variable_descriptions.pdf - Variable names and definitions
+- simluate_data.ipynb - Jupyter notebook that generates simulated dataset
+- data_simulated.csv - Simulated dataset that can be used to verify the code.
 
 ## Requirements
 The analysis requires Python 3.11+ with the following packages:
@@ -21,7 +23,7 @@ scipy
 tqdm
 
 ## Replication
-We use poetry for environment management. The poetry.lock file contains my exact environment
+We use poetry for environment management. The poetry.lock file contains the exact environment used. To construct the figures and tables from the paper, run the jupyter-notebook main.ipynb. Note the figures and tables created using the simulated data will differ from those using the real data.
 
 Install dependencies using:
 ```poetry install```
