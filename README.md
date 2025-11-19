@@ -10,7 +10,7 @@ This repository contains replication materials for the paper "The Digital Privac
 - data_simulated.csv - Simulated dataset that can be used to verify the code.
 
 ## Requirements
-The analysis requires Python 3.11+ with the following packages:
+The analysis requires Python 3.11+ with the following packages. The exact package versions, and all packages installed when running the code, can be found in the poetry.lock file or the requirements.txt file included in this repo.
 
 poetry
 pandas (>=2.2.3)
